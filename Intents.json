@@ -79,59 +79,59 @@
          "List of documents is as follows: Govt. issued ID proof, proof of academic qualifications, a
          letter of recommendation from academic mentors."],
          "context_set": ""
-        }
+        },
         {"tag": "Approval Process",//Q1
         "patterns": [" Where I can find the information related to Approval Process 2020-21","approval process","approval process 2021","approval process 2020"],
         "responses": ["Information related to Approval Process 2020-21 available on AICTE Website's Homepage>Quick Links>Approval Process 2020-21.",
-                      "On AICTE Website's Homepage>Quick Links>Approval Process 2020-21."];
+                      "On AICTE Website's Homepage>Quick Links>Approval Process 2020-21."],
         "context_set": ""
-        }
+        },
         {"tag": "New User-id and password",//Q2
         "patterns": [" How can I get New User-id and password (login credentials) for AICTE Web Portal","New User-id and password","new login credentials"],
-        "responses": ["lease click on Sign Up link on AICTE Web-portal or go to link http://portal.aicte-india.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD @https:/aicte-india.org/bureaus/approval/ap_2020-21 "];
+        "responses": ["lease click on Sign Up link on AICTE Web-portal or go to link http://portal.aicte-india.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD @https:/aicte-india.org/bureaus/approval/ap_2020-21 "],
         "context_set": ""
-        }
+        },
         {"tag": "Forgot Password",//Q3
         "patterns": [" I have forgotten password for logging in AICTE Web Portal. What is the procedure to recover this",
                      "new password","recover password"],
-        "responses": ["Please refer User Manual for Forgotten Password available @ https://aicte-india.org/bureaus/approval/ap_2020-2"];
+        "responses": ["Please refer User Manual for Forgotten Password available @ https://aicte-india.org/bureaus/approval/ap_2020-2"],
         "context_set": ""
-        }
+        },
         {"tag": "UserId for forgoten password",//Q4
         "patterns": [" Is User Id field mandatory for 'Forgot Password' form",
                      "do i need to have a user id for password recovery","Is User Id field compulsory for 'Forgot Password' form"],
-        "responses": ["No, User Id is NOT mandatory. Only Permanent Institute Id is required for existing institute. In case of new institute (received Letter of Approval(LOA) in previous year) can enter Current Application Id. "];
+        "responses": ["No, User Id is NOT mandatory. Only Permanent Institute Id is required for existing institute. In case of new institute (received Letter of Approval(LOA) in previous year) can enter Current Application Id. "],
         "context_set": ""
-        }
+        },
         {"tag": "Error Password",//Q5
         "patterns": ["When I try to login with Institute's Credentials, error message 'Invalid Username and Password' is displayed. What should I do",
                      "Invalid Username and Password is displayed What should I do"],
-        "responses": ["Recheck the login credentials. Confirm whether someone else has logged in with the same credentials (Please note that per institute only ONE session is allowed. Hence, if someone tries  for 2nd session then again invalid user name and password message will popup). If no session is live and still getting an invalid username and password message, then the password might be incorrect. In such cases, you can ""Request for forgot password""."];
+        "responses": ["Recheck the login credentials. Confirm whether someone else has logged in with the same credentials (Please note that per institute only ONE session is allowed. Hence, if someone tries  for 2nd session then again invalid user name and password message will popup). If no session is live and still getting an invalid username and password message, then the password might be incorrect. In such cases, you can ""Request for forgot password""."],
         "context_set": ""
-        }
+        },
         {"tag": "Approval Process 2020-21 for our institute",//Q6
         "patterns": [" How can I apply for Approval Process 2020-21 for our institute","approval process","approval process 2021","approval process 2020"],
-        "responses": ["Please login to AICTE Webportal using your institute’s login credentials then click on  Approval Process icon. Follow the instructions given in User Manuals/Videos and apply  accordingly. For more information, please go through Approval Process Handbook 2020-21"];
+        "responses": ["Please login to AICTE Webportal using your institute’s login credentials then click on  Approval Process icon. Follow the instructions given in User Manuals/Videos and apply  accordingly. For more information, please go through Approval Process Handbook 2020-21"],
         "context_set": ""
-        }
+        },
         {"tag": "generate report",//Q7
         "patterns": [" I am not able to generate report"],
-        "responses": ["Please login to AICTE Webportal using your institute’s login credentials then click on  Approval Process icon. Follow the instructions given in User Manuals/Videos and apply  accordingly. For more information, please go through Approval Process Handbook 2020-21."];
+        "responses": ["Please login to AICTE Webportal using your institute’s login credentials then click on  Approval Process icon. Follow the instructions given in User Manuals/Videos and apply  accordingly. For more information, please go through Approval Process Handbook 2020-21."],
         "context_set": ""
-        }
+        },
         {"tag": "Delete details",//Q8
         "patterns": ["How to delete old faculty details"],
-        "responses": ["Faculty record cannot be deleted. Faculty can be marked as “Duplicate” or “Left the Institute” under HOI & Faculty Details tab"];
+        "responses": ["Faculty record cannot be deleted. Faculty can be marked as “Duplicate” or “Left the Institute” under HOI & Faculty Details tab"],
         "context_set": ""
-        }
+        },
         {"tag": "Update faculty details",//Q9
         "patterns": ["Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal","Aadhaar/PAN necessary/required to update teacher details"],
-        "responses": ["Yes."];
+        "responses": ["Yes."],
         "context_set": ""
-        }
+        },
         {"tag": "Transfer faculty record",//Q10
         "patterns": [" How to transfer faculty record(individual) from one institute to another institute","how to transfer/move teacher details from one institute to another institute"],
-        "responses": ["This facility is available under HOI & Faculty tab. Before transferring any individual faculty record from one institute to other institute, the faculty should be compulsorily marked as “left the institute” in the previous institute. "];
+        "responses": ["This facility is available under HOI & Faculty tab. Before transferring any individual faculty record from one institute to other institute, the faculty should be compulsorily marked as “left the institute” in the previous institute. "],
         "context_set": ""
         }
    ]
