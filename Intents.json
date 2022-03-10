@@ -16,68 +16,39 @@
         },
         {"tag": "Internship eligibility",
          "patterns": ["WHO IS ELIGIBLE TO APPLY FOR INTERNSHIPS UNDER TULIP?", "how to apply for internship", "Am i eligible for this internship"],
-         "responses": ["The internships under TULIP are open to Indian Citizens who have
-         completed a diploma/graduate/postgraduate program. Candidates should, however, 
-         note that at the time of application they have not crossed 36 months from the date of
-         results declaration of diploma/graduation.", "It is open to courses and streams as 
-         prescribed by ULBs/Smart Cities in their requirements. Both AICTE affiliated and non-AICTE
-         college graduates are eligible to apply.",
-         "Candidates who have taken all the final semester exams of final year and are awaiting results
-         shall proceed with their applications
-         and join internships. However, the release of their internship certificates will be subject to
-         production of education
-         certificate(s)/degree to their respective ULBs/Smart Cities/Parastatal authorities."],
+         "responses": ["The internships under TULIP are open to Indian Citizens who have completed a diploma/graduate/postgraduate program. Candidates should, however, note that at the time of application they have not crossed 36 months from the date of results declaration of diploma/graduation.", "It is open to courses and streams as prescribed by ULBs/Smart Cities in their requirements. Both AICTE affiliated and non-AICTE college graduates are eligible to apply.",
+         "Candidates who have taken all the final semester exams of final year and are awaiting results shall proceed with their applications and join internships. However, the release of their internship certificates will be subject to production of education certificate(s)/degree to their respective ULBs/Smart Cities/Parastatal authorities."],
          "context_set": ""
         },
         {"tag": "TULIP",
          "patterns": ["What is TULIP ?", "What does TULIP do ?", "Is TULIP an internship program ?"],
-         "responses": ["The TULIP platform is a dedicated window
-         to internship opportunities in Urban Local Bodies/smart cities.",
-         "The TULIP platform aggregates opportunities from across India for graduates
-         on a single platform and allow them to apply for internships in the domain of urban
-         governance."],
+         "responses": ["The TULIP platform is a dedicated window to internship opportunities in Urban Local Bodies/smart cities.",
+         "The TULIP platform aggregates opportunities from across India for graduates on a single platform and allow them to apply for internships in the domain of urban governance."],
          "context_set": ""
         },
         {"tag": "Stipend",
-         "patterns": ["Is there any stipend?", "How much can I earn?", "Is the internship free or stipend
-         based ?"],
-         "responses": ["The stipend and its amount are under the scope and purview of the specific
-         ULB/smart city one is applying to. Any stipend or allowance amount, if provided or not, will be
-         mentioned in the perks and allowances section of the internship posted by the ULB/smart city.",
-         "TULIP allows for both paid and unpaid internships, though we recommend that candidates should
-         apply for the internships considering the potential for learning as opposed to the stipend
-         amount.",
-         "Any stipend or allowance amount, if provided or not, will be mentioned in the perks and
-         allowances section of the internship. Internships are best looked at as learning opportunities
-         and candidates should treat them as such."],
+         "patterns": ["Is there any stipend?", "How much can I earn?", "Is the internship free or stipend based ?"],
+         "responses": ["The stipend and its amount are under the scope and purview of the specific ULB/smart city one is applying to. Any stipend or allowance amount, if provided or not, will be mentioned in the perks and allowances section of the internship posted by the ULB/smart city.",
+         "TULIP allows for both paid and unpaid internships, though we recommend that candidates should apply for the internships considering the potential for learning as opposed to the stipend amount.",
+         "Any stipend or allowance amount, if provided or not, will be mentioned in the perks and allowances section of the internship. Internships are best looked at as learning opportunities and candidates should treat them as such."],
          "context_set": ""
         },
         {"tag": "Certificate",
-         "patterns": ["Will I receive an Internship certificate?", "How will I get internship 
-         certificate?", "What are the benefits of completing internship?"],
-         "responses": ["The internship certificate issued upon successful completion of the internship is
-         a digitally verifiable and secure one.",
-         "The candidates upon successful completion of internship will receive an internship certificate, 
-         which will be verifiable using a QR code"],
+         "patterns": ["Will I receive an Internship certificate?", "How will I get internship certificate?", "What are the benefits of completing internship?"],
+         "responses": ["The internship certificate issued upon successful completion of the internship is a digitally verifiable and secure one.",
+         "The candidates upon successful completion of internship will receive an internship certificate, which will be verifiable using a QR code"],
          "context_set": ""
         },
         {"tag": "Selection Process TULIP",
          "patterns": ["What is the selection process for TULIP?", "Will my application get selected?", "How are candidates selected for internship?"],
-         "responses": ["After completing the application on the TULIP platform, the candidate can apply for up to 7 internship requirements at a given
-                       point of time. Once candidate is screened/shortlisted, he/she may be invited by the ULB/smart city for an interview.",
-         "After a candidate is shortlisted, he/she will have to appear for an online/offline interview.The candidates selected through the interview will 
-          be notified by the ULB/smart city and will be issued the offer letter digitally. The candidate may then choose to accept or reject 
-          the internship offer on the portal itself."],
+         "responses": ["After completing the application on the TULIP platform, the candidate can apply for up to 7 internship requirements at a given point of time. Once candidate is screened/shortlisted, he/she may be invited by the ULB/smart city for an interview.",
+         "After a candidate is shortlisted, he/she will have to appear for an online/offline interview.The candidates selected through the interview will be notified by the ULB/smart city and will be issued the offer letter digitally. The candidate may then choose to accept or reject the internship offer on the portal itself."],
          "context_set": ""
         },
         {"tag": "Document Requirements",
-         "patterns": ["What documents are required ?", "Which documents need to be submitted ?", "How do I
-         apply for internship ?"],
-         "responses": ["A Govt. issued identity proof (Driving License, Election Card, etc.), proofs of
-         academic qualifications and a letter of recommendation from academic mentors of the student are
-         the basic requirements for an internship for TULIP.",
-         "List of documents is as follows: Govt. issued ID proof, proof of academic qualifications, a
-         letter of recommendation from academic mentors."],
+         "patterns": ["What documents are required ?", "Which documents need to be submitted ?", "How do I apply for internship ?"],
+         "responses": ["A Govt. issued identity proof (Driving License, Election Card, etc.), proofs of academic qualifications and a letter of recommendation from academic mentors of the student are the basic requirements for an internship for TULIP.",
+         "List of documents is as follows: Govt. issued ID proof, proof of academic qualifications, a letter of recommendation from academic mentors."],
          "context_set": ""
         },
         {"tag": "Approval Process",//Q1
