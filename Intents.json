@@ -61,6 +61,15 @@
          which will be verifiable using a QR code"],
          "context_set": ""
         },
+        {"tag": "Selection Process TULIP",
+         "patterns": ["What is the selection process for TULIP?", "Will my application get selected?", "How are candidates selected for internship?"],
+         "responses": ["After completing the application on the TULIP platform, the candidate can apply for up to 7 internship requirements at a given
+                       point of time. Once candidate is screened/shortlisted, he/she may be invited by the ULB/smart city for an interview.",
+         "After a candidate is shortlisted, he/she will have to appear for an online/offline interview.The candidates selected through the interview will 
+          be notified by the ULB/smart city and will be issued the offer letter digitally. The candidate may then choose to accept or reject 
+          the internship offer on the portal itself."],
+         "context_set": ""
+        },
         {"tag": "Document Requirements",
          "patterns": ["What documents are required ?", "Which documents need to be submitted ?", "How do I
          apply for internship ?"],
