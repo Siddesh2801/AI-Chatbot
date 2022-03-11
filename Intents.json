@@ -104,6 +104,74 @@
         "patterns": [" How to transfer faculty record(individual) from one institute to another institute","how to transfer/move teacher details from one institute to another institute"],
         "responses": ["This facility is available under HOI & Faculty tab. Before transferring any individual faculty record from one institute to other institute, the faculty should be compulsorily marked as left the institute in the previous institute. "],
         "context_set": ""
+        },
+        {"tag": "PG Scholarship Eligibility",
+         "patterns": ["What are the eligibility criteria for grant of PG Scholarship?", "How to apply for PG Scholarship?",
+         "Are the students qualifying GATE/GPAT exam after seeking admission in the course, eligible for grant of PG Scholarship ?",
+         "Am i eligible for this scholarship?","Who are eligible to PG Scholarship"],
+         "responses": ["Post Graduate Scholarship is entitled only to full time GATE/GPAT qualified students admitted 
+         to AICTE approved programs viz. Master of Engineering, Master of Technology, Master of Architecture and 
+         Master of Pharmacy courses in AICTE approved Institutions and AICTE approved University Departments.",
+         "Any student who qualifies the GATE/GPAT exam after the date of admission shall not be eligible 
+         for grant of scholarship for the reasons whatsoever it may be."],
+         "context_set": ""
+        },
+        {"tag": "Online Procedure of PG scholarship through DBT",
+        "patterns": ["What is the procedure for applying online for grant of PG Scholarship through DBT?", 
+        "What is the online procedure for grant of PG Scholarship through DBT?"],
+        "responses": ["Proposal for grant of PG Scholarship are called for through advertisement in leading newspapers. 
+        Students/Institutes are advised to follow the procedure and guidelines contained therein. Copy of the advertisement can be viewed by 
+        visiting AICTE portal at http:www.aicte-india.org/bulletin.php"],
+        "context_set": ""
+        },
+        {"tag": "Documents Required for PG scholarship",
+        "patterns": ["What are the document required to be uploaded by the student?","Which documents need to be submitted ?"],
+        "responses": ["Students are required to upload to following documents:
+        a) Scanned PDF copy of GATE/GPAT score card.
+        b) Scanned PDF copy of the passbook
+        c) Scanned PDF copy of the Aadhaar card. Students of J&K, Meghalaya and Assam are exempted.
+        d) Scanned PDF copy of caste certificate.
+        e) Scanned PDF copy of the Non-Creamy Layer (NCL) certificate in respect of only OBC candidates. 
+        Non-Creamy Layer (NCL) should not be old more than 1 year."],
+        "context_set": ""
+        },
+        {"tag": "Joint Account approval",
+        "patterns": ["Can the Joint Account with family members be uploaded? (The PDF copy of the same.)"],
+        "responses": ["No, Joint account is not accepted. Only Basic General Savings account/Normal account should be opened 
+        in the name of the student in any Nationalized bank. Student should open “ NO FRILL ACCOUNT"],
+        "context_set": ""
+        },
+        {"tag": "Bank Account Updation",
+        "patterns": ["During the period of the course can a student open a fresh Bank account or change the Branch of Savings Bank account."],
+        "responses": ["Bank and Branch should not be changed during the period of course preferably for smooth disbursal of PG scholarship."],
+        "context_set": ""
+        },
+        {"tag": "Portal Data Visibility",
+        "patterns": ["The data on the portal is submitted for the purpose of grant of PG Scholarship but it is not visible on the portal. 
+        What can the reasons be thereof."],
+        "responses": ["Every data/attendance uploaded by the student/Institution is required to be submitted by pressing “Submit Application” button. 
+        Check up with your Institution whether “submit application” button has been pressed or not while submitting the data."],
+        "context_set": ""
+        },
+        {"tag": "Non-sponsored categories/Management quota/foreign students Eligibility",
+        "patterns": ["Whether students from non-sponsored categories/Management quota/foreign students are eligible for grant of PG Scholarship?",
+        "Who are eligible to PG Scholarship"],
+        "responses": ["No, Students from non-sponsored categories/Management quota/foreign students admitted 
+        with valid GATE/GPAT Score card are not eligible for grant of PG Scholarship."],
+        "context_set": ""
+        },
+        {"tag": "Part time courses eligibility",
+        "patterns": ["Whether the PG Scholarship is admissible to the GATE/GPAT qualified student admitted in part time courses?",
+        "Who are eligible to PG Scholarship"],
+        "responses": ["No, PG Scholarship is admissible to the GATE/GPAT qualified students, admitted only in full time course."],
+        "context_set": ""
+        },
+        {"tag": "State Government or Central Government sponsored schemes eligibility",
+        "patterns": ["Whether a student who is recipient of Scholarship either through State Government or Central Government 
+        sponsored schemes is eligible for grant of PG scholarship?"],
+        "responses": ["No, the student who is in receipt of any kind of Scholarship/Stipend or salary etc. is not eligible 
+        for grant of PG Scholarship."],
+        "context_set": ""
         }
    ]
 }
