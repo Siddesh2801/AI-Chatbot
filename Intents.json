@@ -173,8 +173,7 @@
         },
         {"tag": "Academic Year 2020-21",
         "patterns": ["Where to send the queries related to portal, payment and approval related issues for the Academic Year 2020-21?", "Where can i post queries related to Academic Year 2020-21?", "Where can i ask questions related to portal, payment and approval for the Academic Year 2020-21?"],
-        "responses": ["Raise a Grievance via grievance form available at  https://www.facilities.aicteindia.org/Approval Process/apformEmail.php.  
-                       NOTE: Any grievance related to Approval Process 2020-21 communicated to any of the official e-mail(s) of AICTE (other than through Online Grievance rederessal) will NOT be entertained."],
+        "responses": ["Raise a Grievance via grievance form available at https://www.facilities.aicteindia.org/Approval Process/apformEmail.php."],
         "context_set": ""
         },
         {"tag": "User ID ",
