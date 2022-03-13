@@ -155,6 +155,47 @@
         "patterns": ["Whether a student who is recipient of Scholarship either through State Government or Central Government sponsored schemes is eligible for grant of PG scholarship?", "State government pg scholarship","Central government pg eligibility"],
         "responses": ["No, the student who is in receipt of any kind of Scholarship/Stipend or salary etc. is not eligible for grant of PG Scholarship."],
         "context_set": ""
+        },
+        {"tag": "Add/Update faculty details",
+        "patterns": ["How to update/add the faculty details by import method?", "What is the procedure of adding/updating faculty details by import method"],
+        "responses": ["Please follow the User Manual available @ https://aicte-india.org/bureaus/approval/ap_2020-21 for uploading faculty details by import method"],
+        "context_set": ""
+        },
+        {"tag": "Online Payment",
+        "patterns": ["I have made Online Payment but amount is not updated in portal.", "Why is the amount not updated in the portal after i made my payment"],
+        "responses": ["Generally, payment receipt gets updated immediately. In case, your payment receipt is not updated then click on View Transaction Button under Payment tab. Otherwise, it will get updated in 48 to 72 working hours (2 to 3 working days). In case it is not updated even after that, please raise grievance with transaction details (Transaction Id generated while making the payment) through Online Grievance Redressal form. Link is available on Approval Process 2020-21 page."],
+        "context_set": ""
+        },
+        {"tag": "AICTE Website Payment Gateway",
+        "patterns": ["I am not able to make payment because AICTE Website is not directing to Payment Gateway.", "I am unable to continue with the payment as Payment Gateway is not opening"],
+        "responses": ["Please check whether your application has been submitted successfully or not. If submitted, then allow Popups for AICTE Website through Web browser URL."],
+        "context_set": ""
+        },
+        {"tag": "Academic Year 2020-21",
+        "patterns": ["Where to send the queries related to portal, payment and approval related issues for the Academic Year 2020-21?", "Where can i post queries related to Academic Year 2020-21?", "Where can i ask questions related to portal, payment and approval for the Academic Year 2020-21?"],
+        "responses": ["Raise a Grievance via grievance form available at  https://www.facilities.aicteindia.org/Approval Process/apformEmail.php.  
+                       NOTE: Any grievance related to Approval Process 2020-21 communicated to any of the official e-mail(s) of AICTE (other than through Online Grievance rederessal) will NOT be entertained."],
+        "context_set": ""
+        },
+        {"tag": "User ID ",
+        "patterns": ["Our Institution was allotted a User ID last year as a new Institution. Some information was uploaded but the application could not be submitted at that time. Now I want to know that the same User ID can be used for approval process 2020-21. ", "Can i use the user-id generated for approval process of the academic year 2019-20 for the academic year 2020-21"],
+        "responses": ["No, Institute need to apply afresh for getting login credentials."],
+        "context_set": ""
+        },
+        {"tag": "Details",
+        "patterns": ["We want to change details which are non-editable / read-only? ", "How to change non-editable/read-only details"],
+        "responses": ["You may contact the Approval Bureau or Regional Office."],
+        "context_set": ""
+        },
+        {"tag": "Application",
+        "patterns": ["By mistake, I have submitted my application. Is it possible to reopen the application once again to update the few details?", "How can i update my application after submitting it?", "Is it possible to re-open my application to make changes after it was submitted?"],
+        "responses": ["If you have not created any payment record under Payment tab then you can re-open the submitted application only once by clicking on “re-open application” button available under Attachments and Submit tab.  Note: After re-open, the application should be resubmitted. Otherwise application will be treated as 'Application Not Submitted'."],
+        "context_set": ""
+        },
+        {"tag": "Password",
+        "patterns": ["I have applied for forgot password but still I did not receive password on my registered email?", "Where will my password be sent after clicking on forget password?", "I have forgotten my password, how can i get it back?"],
+        "responses": ["Institute need to submit the Affidavit-1 in the respective Regional Office. Regional Officer will flag the Affidavit Received against your request on web portal. Then password will be sent to the institute’s registered email id. Please check the Spam Folder also in your mailbox for forgot password email. In case of any issue, you may raise your grievance online by Grievance link available @ https://aicte-india.org/bureaus/approval/ap_2020-21"],
+        "context_set": ""
         }
    ]
 }
