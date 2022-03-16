@@ -15,7 +15,7 @@ Install numpy by running the following code in terminal:
 `pip3 install numpy`
 
 ### Tensorflow
-In order to build our neural network, tensorflow will olay a vital role,
+In order to build our neural network, tensorflow will play a vital role,
 since it provides a user friendly way to construct neural networks based
 on our requirements.
 Install tensorflow by running the following code in terminal:
