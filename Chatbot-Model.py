@@ -119,7 +119,7 @@ def chat():
     """
     print("Start talking with the bot <type quit to exit>")
     while True:
-        inp = input("You:")
+        inp = input("\n You:")
         if(inp.lower() == "quit"):
             break
         results = model.predict([bag_of_words(inp, words)])
@@ -129,7 +129,8 @@ def chat():
         for tg in data["intents"]:
             if tg['tag'] == pred_label:
                 response = tg['responses']
-        print(random.choice(response))
+        print("\n")
+        print("Bot: ", random.choice(response))
 
 
 chat()
