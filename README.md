@@ -1,5 +1,11 @@
 # AI-Chatbot
-Contains the .json file of intents for the AI Chatbot which will answer FAQ. This Intents.json file will be used to train a neural network to answer these particular FAQs.
+
+## Chatbot-model.py
+This python file performs the necessary pre-processing on the FAQs and converts them to machine readable **One Hot Encoded** data for the neural network model which is implemented using Tensorflow.
+
+## Intents.json
+Contains the .json file of intents for the AI Chatbot which will answer FAQ.
+
 
 ## Libraries required
 > All installation codes are for Python 3.X
@@ -24,3 +30,5 @@ Install NLTK by running the following code in terminal:
 Pickle is used to save the final neural network model and the input in a file, which can be used
 instead of rerunning the model everytime prediction needs to be made for a given input.
 >Need not be installed, comes pre installed with Python3.x
+
+
