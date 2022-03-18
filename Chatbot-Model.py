@@ -126,11 +126,15 @@ def chat():
         result_index = np.argmax(results)
         pred_label = labels[result_index]
 
-        for tg in data["intents"]:
-            if tg['tag'] == pred_label:
-                response = tg['responses']
-        print("\n")
-        print("Bot: ", random.choice(response))
+        if(results[0, result_index] > 0.65):
+            for tg in data["intents"]:
+                if tg['tag'] == pred_label:
+                    response = tg['responses']
+            print("\n")
+            print("Bot: ", random.choice(response))
+        else:
+            print("\n")
+            print("Bot: I don't quite understand, try rephrasing your question")
 
 
 chat()
