@@ -115,7 +115,7 @@
         },
         {"tag": "Online Procedure of PG scholarship through DBT",
         "patterns": ["What is the procedure for applying online for grant of PG Scholarship through DBT?", 
-        "What is the online procedure for grant of PG Scholarship through DBT?","PG DBT Scholarship""apply for PG Scholarship through dbt"],
+        "What is the online procedure for grant of PG Scholarship through DBT?","PG DBT Scholarship","apply for PG Scholarship through dbt"],
         "responses": ["Proposal for grant of PG Scholarship are called for through advertisement in leading newspapers. Students/Institutes are advised to follow the procedure and guidelines contained therein. Copy of the advertisement can be viewed by visiting AICTE portal at http:www.aicte-india.org/bulletin.php"],
         "context_set": ""
         },
