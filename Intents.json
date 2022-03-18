@@ -11,7 +11,7 @@
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "responses": ["You can call me Helio", "I'm Helio!", "I'm Helio, here to help you!"],
          "context_set": ""
         },
         {"tag": "Internship eligibility",
