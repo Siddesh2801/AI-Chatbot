@@ -109,8 +109,7 @@
          "patterns": ["What are the eligibility criteria for grant of PG Scholarship?", "How to apply for PG Scholarship?",
          "Are the students qualifying GATE/GPAT exam after seeking admission in the course, eligible for grant of PG Scholarship ?",
          "Am i eligible for this scholarship?","Who are eligible to PG Scholarship","PG scholarship eligibility"],
-         "responses": ["Post Graduate Scholarship is entitled only to full time GATE/GPAT qualified students admitted to AICTE approved programs viz. Master of Engineering, Master of Technology, Master of Architecture and Master of Pharmacy courses in AICTE approved Institutions and AICTE approved University Departments.",
-         "Any student who qualifies the GATE/GPAT exam after the date of admission shall not be eligible for grant of scholarship for the reasons whatsoever it may be."],
+         "responses": ["Post Graduate Scholarship is entitled only to full time GATE/GPAT qualified students admitted to AICTE approved programs viz. Master of Engineering, Master of Technology, Master of Architecture and Master of Pharmacy courses in AICTE approved Institutions and AICTE approved University Departments. Any student who qualifies the GATE/GPAT exam after the date of admission shall not be eligible for grant of scholarship for the reasons whatsoever it may be."],
          "context_set": ""
         },
         {"tag": "Online Procedure of PG scholarship through DBT",
