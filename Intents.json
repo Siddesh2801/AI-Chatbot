@@ -15,7 +15,7 @@
          "context_set": ""
         },
         {"tag": "Internship eligibility",
-         "patterns": ["WHO IS ELIGIBLE TO APPLY FOR INTERNSHIPS UNDER TULIP?", "how to apply for internship", "Am i eligible for this internship","what is the eligibility criteria for the internship"],
+         "patterns": ["WHO IS ELIGIBLE TO APPLY FOR INTERNSHIPS UNDER TULIP?", "how to apply for internship", "Am i eligible for this internship","what is the eligibility criteria for the internship","i want to apply for Tulip internship"],
          "responses": ["The internships under TULIP are open to Indian Citizens who have completed a diploma/graduate/postgraduate program. Candidates should, however, note that at the time of application they have not crossed 36 months from the date of results declaration of diploma/graduation.", "It is open to courses and streams as prescribed by ULBs/Smart Cities in their requirements. Both AICTE affiliated and non-AICTE college graduates are eligible to apply.",
          "Candidates who have taken all the final semester exams of final year and are awaiting results shall proceed with their applications and join internships. However, the release of their internship certificates will be subject to production of education certificate(s)/degree to their respective ULBs/Smart Cities/Parastatal authorities."],
          "context_set": ""
@@ -27,7 +27,7 @@
          "context_set": ""
         },
         {"tag": "Stipend",
-         "patterns": ["Is there any stipend?", "How much can I earn?", "Is the internship free or stipend based ?","will i earn money from this internship"],
+         "patterns": ["Is there any stipend?", "How much can I earn?", "Is the internship free or stipend based ?","will i earn money from this internship","will i get stipend"],
          "responses": ["The stipend and its amount are under the scope and purview of the specific ULB/smart city one is applying to. Any stipend or allowance amount, if provided or not, will be mentioned in the perks and allowances section of the internship posted by the ULB/smart city.",
          "TULIP allows for both paid and unpaid internships, though we recommend that candidates should apply for the internships considering the potential for learning as opposed to the stipend amount.",
          "Any stipend or allowance amount, if provided or not, will be mentioned in the perks and allowances section of the internship. Internships are best looked at as learning opportunities and candidates should treat them as such."],
@@ -40,31 +40,31 @@
          "context_set": ""
         },
         {"tag": "Selection Process TULIP",
-         "patterns": ["What is the selection process for TULIP?", "Will my application get selected?", "How are candidates selected for internship?"],
+         "patterns": ["What is the selection process for TULIP?", "Will my application get selected?", "How are candidates selected for internship?","what is the selection criteria for TULIP internship"],
          "responses": ["After completing the application on the TULIP platform, the candidate can apply for up to 7 internship requirements at a given point of time. Once candidate is screened/shortlisted, he/she may be invited by the ULB/smart city for an interview.",
          "After a candidate is shortlisted, he/she will have to appear for an online/offline interview.The candidates selected through the interview will be notified by the ULB/smart city and will be issued the offer letter digitally. The candidate may then choose to accept or reject the internship offer on the portal itself."],
          "context_set": ""
         },
         {"tag": "Document Requirements",
-         "patterns": ["What documents are required ?", "Which documents need to be submitted ?", "How do I apply for internship ?","documents required", "documents needed"],
+         "patterns": ["What documents are required for TULIP ?", "Which documents need to be submitted for TULIP ?", "How do I apply for TULIP internship ?","documents required", "documents needed","which documents are required","which documents do i need"],
          "responses": ["A Govt. issued identity proof (Driving License, Election Card, etc.), proofs of academic qualifications and a letter of recommendation from academic mentors of the student are the basic requirements for an internship for TULIP.",
          "List of documents is as follows: Govt. issued ID proof, proof of academic qualifications, a letter of recommendation from academic mentors."],
          "context_set": ""
         },
         {"tag": "Approval Process",
-        "patterns": [" Where I can find the information related to Approval Process 2020-21","approval process","approval process 2021","approval process 2020"],
+        "patterns": [" Where I can find the information related to Approval Process 2020-21","approval process","approval process 2021","approval process 2020","what is the approval process of colleges"],
         "responses": ["Information related to Approval Process 2020-21 available on AICTE Website's Homepage>Quick Links>Approval Process 2020-21.",
                       "On AICTE Website's Homepage>Quick Links>Approval Process 2020-21."],
         "context_set": ""
         },
         {"tag": "New User-id and password",
-        "patterns": [" How can I get New User-id and password (login credentials) for AICTE Web Portal","New User-id and password","new login credentials","new username and password"],
+        "patterns": [" How can I get New User-id and password (login credentials) for AICTE Web Portal","New User-id and password","new login credentials","new username and password","how to create account","how to sign up"],
         "responses": ["Please click on Sign Up link on AICTE Web-portal or go to link http://portal.aicte-india.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD @https:/aicte-india.org/bureaus/approval/ap_2020-21 "],
         "context_set": ""
         },
         {"tag": "Forgot Password",
         "patterns": [" I have forgotten password for logging in AICTE Web Portal. What is the procedure to recover this",
-                     "new password","recover password"],
+                     "new password","recover password","i forgot my password"],
         "responses": ["Please refer User Manual for Forgotten Password available @ https://aicte-india.org/bureaus/approval/ap_2020-2"],
         "context_set": ""
         },
@@ -80,51 +80,46 @@
         "responses": ["Recheck the login credentials. Confirm whether someone else has logged ino with the same credentials (Please note that per institute only ONE session is allowed. Hence, if someone tries  for 2nd session then again invalid user name and password message will popup). If no session is live and still getting an invalid username and password message, then the password might be incorrect. In such cases, you can Request for forgot password."],
         "context_set": ""
         },
-        {"tag": "Approval Process 2020-21 for our institute",
-        "patterns": [" How can I apply for Approval Process 2020-21 for our institute","approval process","approval process 2021","approval process 2020"],
-        "responses": ["Please login to AICTE Webportal using your institute’s login credentials then click on  Approval Process icon. Follow the instructions given in User Manuals/Videos and apply  accordingly. For more information, please go through Approval Process Handbook 2020-21"],
-        "context_set": ""
-        },
         {"tag": "generate report",
         "patterns": [" I am not able to generate report", "How do i generate report","How can i create report","i want to create report"],
         "responses": ["Please login to AICTE Webportal using your institute’s login credentials then click on  Approval Process icon. Follow the instructions given in User Manuals/Videos and apply  accordingly. For more information, please go through Approval Process Handbook 2020-21."],
         "context_set": ""
         },
         {"tag": "Delete details",
-        "patterns": ["How to delete old faculty details", "remove old faculty details","delete faculty data", "remove old faculty details"],
+        "patterns": ["How to delete old faculty details", "i want to remove old faculty details","i want to delete old faculty data", "remove old faculty details"],
         "responses": ["Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute under HOI & Faculty Details tab"],
         "context_set": ""
         },
         {"tag": "Update faculty details",
-        "patterns": ["Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal","Aadhaar/PAN necessary/required to update teacher details"],
-        "responses": ["Yes."],
+        "patterns": ["Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal","Aadhaar/PAN necessary/required to update teacher details","is aadhar or pan mandatory for updating details"],
+        "responses": ["Aadhar and Pan are mandatory to update faculty details."],
         "context_set": ""
         },
         {"tag": "Transfer faculty record",
-        "patterns": [" How to transfer faculty record(individual) from one institute to another institute","how to transfer or move teacher details from one institute to another institute", "transfer faculty details"],
+        "patterns": [" How to transfer faculty record(individual) from one institute to another institute","how to transfer or move teacher details from one institute to another institute", "i want to transfer faculty details"],
         "responses": ["This facility is available under HOI & Faculty tab. Before transferring any individual faculty record from one institute to other institute, the faculty should be compulsorily marked as left the institute in the previous institute. "],
         "context_set": ""
         },
         {"tag": "PG Scholarship Eligibility",
          "patterns": ["What are the eligibility criteria for grant of PG Scholarship?", "How to apply for PG Scholarship?",
          "Are the students qualifying GATE/GPAT exam after seeking admission in the course, eligible for grant of PG Scholarship ?",
-         "Am i eligible for this scholarship?","Who are eligible to PG Scholarship","PG scholarship eligibility"],
+         "Am i eligible for this scholarship?","Who are eligible to PG Scholarship","PG scholarship eligibility","I want to apply for PG scholarship","Can i apply for pg scholarship","Am  eligible for PG scholarship"],
          "responses": ["Post Graduate Scholarship is entitled only to full time GATE/GPAT qualified students admitted to AICTE approved programs viz. Master of Engineering, Master of Technology, Master of Architecture and Master of Pharmacy courses in AICTE approved Institutions and AICTE approved University Departments. Any student who qualifies the GATE/GPAT exam after the date of admission shall not be eligible for grant of scholarship for the reasons whatsoever it may be."],
          "context_set": ""
         },
         {"tag": "Online Procedure of PG scholarship through DBT",
         "patterns": ["What is the procedure for applying online for grant of PG Scholarship through DBT?", 
-        "What is the online procedure for grant of PG Scholarship through DBT?","PG DBT Scholarship","apply for PG Scholarship through dbt"],
+        "What is the online procedure for grant of PG Scholarship through DBT?","PG DBT Scholarship","i want to apply for PG Scholarship through dbt","how to apply for pg scholarship through dbt"],
         "responses": ["Proposal for grant of PG Scholarship are called for through advertisement in leading newspapers. Students/Institutes are advised to follow the procedure and guidelines contained therein. Copy of the advertisement can be viewed by visiting AICTE portal at http:www.aicte-india.org/bulletin.php"],
         "context_set": ""
         },
         {"tag": "Documents Required for PG scholarship",
-        "patterns": ["What are the document required to be uploaded by the student for PG scholarship?","Which documents need to be submitted for pg scholarship?","pg scholarship documents"],
+        "patterns": ["What are the document required to be uploaded by the student for PG scholarship?","Which documents need to be submitted for pg scholarship?","pg scholarship documents","which documents are required for pg scholarship","what documents do i need to upload for pg scholarship"],
         "responses": ["Students are required to upload to following documents: a) Scanned PDF copy of GATE/GPAT score card. b) Scanned PDF copy of the passbook c) Scanned PDF copy of the Aadhaar card. Students of J&K, Meghalaya and Assam are exempted. d) Scanned PDF copy of caste certificate. e) Scanned PDF copy of the Non-Creamy Layer (NCL) certificate in respect of only OBC candidates. Non-Creamy Layer (NCL) should not be old more than 1 year."],
         "context_set": ""
         },
         {"tag": "Joint Account approval",
-        "patterns": ["Can the Joint Account with family members be uploaded? (The PDF copy of the same.)","Joint account family"],
+        "patterns": ["Can the Joint Account with family members be uploaded? (The PDF copy of the same.)","Joint account family"," is a joint family account accepted"],
         "responses": ["No, Joint account is not accepted. Only Basic General Savings account/Normal account should be opened in the name of the student in any Nationalized bank. Student should open “ NO FRILL ACCOUNT"],
         "context_set": ""
         },
@@ -134,19 +129,17 @@
         "context_set": ""
         },
         {"tag": "Portal Data Visibility",
-        "patterns": ["The data on the portal is submitted for the purpose of grant of PG Scholarship but it is not visible on the portal. What can the reasons be thereof.","Data not visible on portal","Submitted but not visible"],
+        "patterns": ["The data on the portal is submitted for the purpose of grant of PG Scholarship but it is not visible on the portal. What can the reasons be thereof.","Data not visible on portal","Submitted but not visible"," I submitted details on portal but they are not visible"],
         "responses": ["Every data/attendance uploaded by the student/Institution is required to be submitted by pressing “Submit Application” button. Check up with your Institution whether “submit application” button has been pressed or not while submitting the data."],
         "context_set": ""
         },
         {"tag": "Non-sponsored categories/Management quota/foreign students Eligibility",
-        "patterns": ["Whether students from non-sponsored categories/Management quota/foreign students are eligible for grant of PG Scholarship?",
-        "Who are eligible to PG Scholarship","non sponsored categories management quota eligibility"],
+        "patterns": ["Whether students from non-sponsored categories/Management quota/foreign students are eligible for grant of PG Scholarship?","non sponsored categories management quota eligibility","Can a student from non sponsored, management quota or foreign student apply for PG scholarship"],
         "responses": ["No, Students from non-sponsored categories/Management quota/foreign students admitted with valid GATE/GPAT Score card are not eligible for grant of PG Scholarship."],
         "context_set": ""
         },
         {"tag": "Part time courses eligibility",
-        "patterns": ["Whether the PG Scholarship is admissible to the GATE/GPAT qualified student admitted in part time courses?",
-        "Who are eligible to PG Scholarship","PG Scholarship eligibility", "Part time pg scholarship"],
+        "patterns": ["Whether the PG Scholarship is admissible to the GATE/GPAT qualified student admitted in part time courses?","I am a GATE GPAT student, can i apply for part time scholarship scholarship", "Are gate or gpat students eligible for part time scholarship"],
         "responses": ["No, PG Scholarship is admissible to the GATE/GPAT qualified students, admitted only in full time course."],
         "context_set": ""
         },
@@ -156,17 +149,17 @@
         "context_set": ""
         },
         {"tag": "Add/Update faculty details",
-        "patterns": ["How to update/add the faculty details by import method?", "What is the procedure of adding/updating faculty details by import method"],
+        "patterns": ["How to update/add the faculty details by import method?", "What is the procedure of adding/updating faculty details by import method","i want to update faculty details using import method","how to use import method for updating faculty details"],
         "responses": ["Please follow the User Manual available @ https://aicte-india.org/bureaus/approval/ap_2020-21 for uploading faculty details by import method"],
         "context_set": ""
         },
         {"tag": "Online Payment",
-        "patterns": ["I have made Online Payment but amount is not updated in portal.", "Why is the amount not updated in the portal after i made my payment","Payment done but not reflected in portal"],
+        "patterns": ["I have made Online Payment but amount is not updated in portal.", "Why is the amount not updated in the portal after i made my payment","Payment done but not reflected in portal","I have completed payment but it is not reflected in the portal"],
         "responses": ["Generally, payment receipt gets updated immediately. In case, your payment receipt is not updated then click on View Transaction Button under Payment tab. Otherwise, it will get updated in 48 to 72 working hours (2 to 3 working days). In case it is not updated even after that, please raise grievance with transaction details (Transaction Id generated while making the payment) through Online Grievance Redressal form. Link is available on Approval Process 2020-21 page."],
         "context_set": ""
         },
         {"tag": "AICTE Website Payment Gateway",
-        "patterns": ["I am not able to make payment because AICTE Website is not directing to Payment Gateway.", "I am unable to continue with the payment as Payment Gateway is not opening","Payment gateway error","payment gateway not opening"],
+        "patterns": ["I am not able to make payment because AICTE Website is not directing to Payment Gateway.", "I am unable to continue with the payment as Payment Gateway is not opening","Payment gateway error","payment gateway not opening","I am not able to make payment","I am getting error for payment gateway"],
         "responses": ["Please check whether your application has been submitted successfully or not. If submitted, then allow Popups for AICTE Website through Web browser URL."],
         "context_set": ""
         },
